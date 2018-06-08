@@ -10,6 +10,7 @@ public class ConvertToJson {
 		Gson gson = new Gson();
 		String json = gson.toJson(stud);
 		System.out.println(json);
+		System.out.println("this is edited branch"); //created branch to merge 
 	}
 
 	private static Student createStudent() {
