@@ -9,7 +9,8 @@ public class ConvertToJson {
 		
 		Gson gson = new Gson();
 		String json = gson.toJson(stud);
-		System.out.println(json);
+		System.out.println(json); 
+		//this is a mynewbranch which was created before
 	}
 
 	private static Student createStudent() {
